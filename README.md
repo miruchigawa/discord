@@ -12,14 +12,16 @@ This project is a minimal template for creating a Discord bot using Rust.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/miftahfauzanworks/discord-rs.git
-   cd discord-rs
+   git clone https://github.com/miruchigawa/discord.git
+   cd discord
    ```
 
 2. Create a `.env` file in the root directory:
 
    ```env
-   DISCORD_TOKEN=your_discord_bot_token_here
+   DISCORD_TOKEN= ...
+   WAIFUIT_TOKEN= ...
+   STABLE_DIFUSION_URL= ...
    ```
 
 3. Build the project:
@@ -27,12 +29,6 @@ This project is a minimal template for creating a Discord bot using Rust.
    ```bash
    cargo build --release
    ```
-
-## Configuration
-
-* **.env**
-
-  * `DISCORD_TOKEN`: Your Discord bot token.
 
 ## Usage
 
