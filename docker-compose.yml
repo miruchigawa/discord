@@ -1,0 +1,9 @@
+name: discord-bot 
+
+services:
+  discord:
+    image: discord
+    environment:
+      DISCORD_TOKEN: ${DISCORD_TOKEN}
+      WAIFUIT_TOKEN: ${WAIFUIT_TOKEN}
+      STABLE_DIFUSION_URL: ${STABLE_DIFUSION_URL}
