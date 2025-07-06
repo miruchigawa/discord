@@ -1,3 +1,5 @@
+[![Build & Push Docker Image](https://github.com/miruchigawa/discord/actions/workflows/docker.yml/badge.svg?branch=main)](https://github.com/miruchigawa/discord/actions/workflows/docker.yml)
+
 This project is a minimal template for creating a Discord bot using Rust.
 
 ## Prerequisites
